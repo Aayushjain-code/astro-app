@@ -32,8 +32,8 @@ export default function Calculator() {
       onPress={() => calculate(title)}
       style={{
         backgroundColor: getColor(colors.light1, colors.dark2),
-        height: 38,
-        width: 70,
+        height: 40,
+        width: 50,
         borderRadius: 10,
         margin: 16,
         padding: 1,
