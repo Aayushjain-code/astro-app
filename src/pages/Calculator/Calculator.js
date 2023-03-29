@@ -1,27 +1,7 @@
-// import { StyleSheet, Text, View } from "react-native";
-// import React from "react";
-
-// const Home = () => {
-//   return (
-//     <View style={styles.container}>
-//       <Text>Home</Text>
-//     </View>
-//   );
-// };
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     padding: 24,
-//     backgroundColor: "#f2fe",
-//   },
-// });
-// export default Home;
-
 import { View, Text, Switch, TouchableOpacity } from "react-native";
 import React, { useState } from "react";
 
-export default function Home() {
+export default function Calculator() {
   const [darkTheme, setDarkTheme] = useState(false);
   const [result, setResult] = useState("");
 

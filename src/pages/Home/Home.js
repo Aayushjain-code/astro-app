@@ -1,13 +1,13 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const Calculator = () => {
+const Home = () => {
   return (
     <View>
-      <Text>Calculator</Text>
+      <Text>Home</Text>
     </View>
   );
 };
 const styles = StyleSheet.create({});
 
-export default Calculator;
+export default Home;
